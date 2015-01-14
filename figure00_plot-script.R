@@ -470,7 +470,7 @@ fig10 = ggplot(fig10_df) +
 print(fig10)
 
 ggsave('~/Google Drive/UNR/UNR-Thesis/Manuscript/JAMC/figure10_tmn-lapse.pdf', 
-       height=7, width=9)
+       height=6, width=9)
 
 
 #### Figure 11, elevation quadratic tmx ####
@@ -504,4 +504,4 @@ fig11 = ggplot(fig11_df) +
 print(fig11)
 
 ggsave('~/Google Drive/UNR/UNR-Thesis/Manuscript/JAMC/figure11_tmx-lapse.pdf', 
-       height=7, width=9)
+       height=6, width=9)
