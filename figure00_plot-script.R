@@ -442,7 +442,7 @@ dev.off()
 #### Figure 10, elevation quadratic tmn ####
 fig10_df = m_tmn
 if(fig10_df$elev[1] > 3) {
-  fig10_df$elev = fig11_df$elev/1000
+  fig10_df$elev = fig10_df$elev/1000
 }
 fig10_df = fig10_df[fig10_df$date == as.Date('2013-06-19') |
                       fig10_df$date == as.Date('2013-12-12'), ]
