@@ -1,0 +1,40 @@
+discussion outline
+
+1.  Finescale variation of temperature within complex landscapes
+    a.  Minimum temperature
+        i.  Varies over short disances
+        ii. Independent of elevation
+        iii.CC?
+    b.  Maximum temperature
+        i.  Varies over short distances
+        ii. More elevation Independent
+        iii.CC
+        iv. More affected by sensor design
+
+2.  Synoptic weather and seasonality driving local temp regimes
+    a.  Minimum temperature
+        *   Quickly touch on tair
+        i.  Persistent inversions throughout the year
+        ii. Height of inversion likely varies
+        iii.Atmospheric mixing
+        iv. Lapse rate variability
+        v.  PC4 and its effect
+    b.  Maximum temperature
+        *   Quickly touch on Tair
+        i.  Only occassional inverisons
+        ii. Height and timing of inversions varies (great source of uncertainty)
+        iii.Atmospheric mixing
+        iv. Lapse rate variability
+        V.  PC4 and its effect
+        
+3.  Landscape features driving local temp regimes
+    a.  Minimum temperature
+        i.  Elevation and its quadratic
+        ii. Weak effect of irradiance
+        iii.TCI/slope
+    b.  Maximum temperature
+        i.  Elevation and its quadratic (weaker quad effect)
+        ii. Strong effect of irradiance
+        iii.TCI/Slope - slope stronger than TCI
+4.  Microclimate considerations
+5.  Touch on methods

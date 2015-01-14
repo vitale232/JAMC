@@ -1,0 +1,259 @@
+\begin{thebibliography}{38}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\renewcommand{\UrlFont}{\rmfamily}
+\providecommand{\urlprefix}{URL }
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi:\discretionary{}{}{}#1}\else
+  \providecommand{\doi}{doi:\discretionary{}{}{}\begingroup
+  \urlstyle{rm}\Url}\fi
+\providecommand{\eprint}[2][]{\url{#2}}
+
+\bibitem[{Adams et~al.(2009)Adams, Guardiola-Claramonte, Barron-Gafford,
+  Villegas, Breshears, Zou, Troch,, and Huxman}]{Adams2009}
+Adams, H.~D., M.~Guardiola-Claramonte, G.~a. Barron-Gafford, J.~C. Villegas,
+  D.~D. Breshears, C.~B. Zou, P.~a. Troch, and T.~E. Huxman, 2009: {Temperature
+  sensitivity of drought-induced tree mortality portends increased regional
+  die-off under global-change-type drought.} \textit{Proceedings of the
+  National Academy of Sciences of the United States of America},
+  \textbf{106~(17)}, 7063--6, \doi{10.1073/pnas.0901438106},
+  \urlprefix\url{http://www.pubmedcentral.nih.gov/articlerender.fcgi?artid=2678423\&tool=pmcentrez\&rendertype=abstract}.
+
+\bibitem[{Ashcroft and Gollan(2011)Ashcroft, and Gollan}]{Ashcroft2011}
+Ashcroft, M.~B., and J.~R. Gollan, 2011: {Fine-resolution (25 m) topoclimatic
+  grids of near-surface (5 cm) extreme temperatures and humidities across
+  various habitats in a large (200 × 300 km) and diverse region}.
+  \textit{International Journal of Climatology}, n/a--n/a,
+  \doi{10.1002/joc.2428},
+  \urlprefix\url{http://doi.wiley.com/10.1002/joc.2428}.
+
+\bibitem[{Ashcroft et~al.(2012)Ashcroft, Gollan, Warton,, and
+  Ramp}]{Ashcroft2012}
+Ashcroft, M.~B., J.~R. Gollan, D.~I. Warton, and D.~Ramp, 2012: {A novel
+  approach to quantify and locate potential microrefugia using topoclimate,
+  climate stability, and isolation from the matrix}. \textit{Global Change
+  Biology}, \textbf{18~(6)}, 1866--1879,
+  \doi{10.1111/j.1365-2486.2012.02661.x},
+  \urlprefix\url{http://doi.wiley.com/10.1111/j.1365-2486.2012.02661.x}.
+
+\bibitem[{Barry(2008)}]{Barry2008}
+Barry, R.~G., 2008: \textit{{Mountain Weather and Climate}}. 3rd ed.,
+  Camabridge University Press, New York.
+
+\bibitem[{{Bates, D and Maechler, M and Bolker, B and Walker,
+  S}(2014)}]{lme42015}
+{Bates, D and Maechler, M and Bolker, B and Walker, S}, 2014: \textit{lme4:
+  Linear mixed-effects models using Eigen and S4}.
+  \urlprefix\url{http://CRAN.R-project.org/package=lme4}.
+
+\bibitem[{Bivand et~al.(2013)Bivand, Pebesma,, and Gomez-Rubio}]{Bivand2013}
+Bivand, R.~S., E.~Pebesma, and V.~Gomez-Rubio, 2013: \textit{Applied Spatial
+  Data Analysis with R}. 2nd ed., Springer, New York.
+
+\bibitem[{Blandford et~al.(2008)Blandford, Humes, Harshburger, Moore, Walden,,
+  and Ye}]{Blandford2008a}
+Blandford, T.~R., K.~S. Humes, B.~J. Harshburger, B.~C. Moore, V.~P. Walden,
+  and H.~Ye, 2008: {Seasonal and Synoptic Variations in Near-Surface Air
+  Temperature Lapse Rates in a Mountainous Basin}. \textit{Journal of Applied
+  Meteorology and Climatology}, \textbf{47~(1)}, 249--261,
+  \doi{10.1175/2007JAMC1565.1},
+  \urlprefix\url{http://journals.ametsoc.org/doi/abs/10.1175/2007JAMC1565.1}.
+
+\bibitem[{Cabrera et~al.(1998)Cabrera, Rada,, and Cavieres}]{Cabrera1998}
+Cabrera, H.~M., F.~Rada, and L.~Cavieres, 1998: {Effects of temperature on
+  photosynthesis of two morphologically contrasting plant species along an
+  altitudinal gradient in the tropical high Andes}. \textit{Oecologia},
+  \textbf{114~(2)}, 145--152, \doi{10.1007/s004420050430},
+  \urlprefix\url{http://link.springer.com/10.1007/s004420050430}.
+
+\bibitem[{Crimmins et~al.(2011)Crimmins, Dobrowski, Greenberg, Abatzoglou,, and
+  Mynsberge}]{Crimmins2011}
+Crimmins, S.~M., S.~Z. Dobrowski, J.~a. Greenberg, J.~T. Abatzoglou, and A.~R.
+  Mynsberge, 2011: {Changes in climatic water balance drive downhill shifts in
+  plant species' optimum elevations.} \textit{Science (New York, N.Y.)},
+  \textbf{331~(6015)}, 324--7, \doi{10.1126/science.1199040},
+  \urlprefix\url{http://www.ncbi.nlm.nih.gov/pubmed/21252344}.
+
+\bibitem[{Daly et~al.(2008)Daly, Halbleib,, and Smith}]{Daly2008}
+Daly, C., M.~Halbleib, and J.~Smith, 2008: {Physiographically sensitive mapping
+  of climatological temperature and precipitation across the conterminous
+  United States}. \textit{International Journal of Climatology of Climatology},
+  \doi{10.1002/joc},
+  \urlprefix\url{http://onlinelibrary.wiley.com/doi/10.1002/joc.1688/full}.
+
+\bibitem[{Diaz et~al.(2003)Diaz, Grosjean,, and Graumlich}]{Diaz2003a}
+Diaz, H., M.~Grosjean, and L.~Graumlich, 2003: \textit{{Climate variability and
+  change in high elevation regions: past, present and future}}, Vol. 2001. 1--4
+  pp.,
+  \urlprefix\url{http://link.springer.com/chapter/10.1007/978-94-015-1252-7\_1}.
+
+\bibitem[{Dobrowski et~al.(2009)Dobrowski, Abatzoglou, Greenberg,, and
+  Schladow}]{Dobrowski2009}
+Dobrowski, S.~Z., J.~T. Abatzoglou, J.~a. Greenberg, and S.~Schladow, 2009:
+  {How much influence does landscape-scale physiography have on air temperature
+  in a mountain environment?} \textit{Agricultural and Forest Meteorology},
+  \textbf{149~(10)}, 1751--1758, \doi{10.1016/j.agrformet.2009.06.006},
+  \urlprefix\url{http://linkinghub.elsevier.com/retrieve/pii/S0168192309001488}.
+
+\bibitem[{ESRI(2014)}]{ESRI2015}
+ESRI, 2014: \textit{ArcGIS 10.1}.
+  \urlprefix\url{http://resources.arcgis.com/en/help/main/10.1/index.html#//00nv0000000v000000}.
+
+\bibitem[{Fridley(2009)}]{Fridley2009}
+Fridley, J.~D., 2009: {Downscaling climate over complex terrain: High finescale
+  (\textless 1000 m) spatial variation of near-ground temperatures in a montane
+  forested landscape (Great Smoky Mountains)}. \textit{Journal of Applied
+  Meteorology and Climatology}, \textbf{48}, 1033--1049,
+  \doi{10.1175/2008JAMC2084.1}.
+
+\bibitem[{Geiger et~al.(2009)Geiger, Aron,, and Todhunter}]{Geiger2009}
+Geiger, R., R.~H. Aron, and P.~Todhunter, 2009: \textit{{The Climate Near the
+  Ground}}. 7th ed., Rowman \& Littlefield Publishers.
+
+\bibitem[{Hannachi et~al.(2007)Hannachi, Jolliffe,, and
+  Stephenson}]{Hannachi2007}
+Hannachi, A., I.~T. Jolliffe, and D.~B. Stephenson, 2007: {Empirical orthogonal
+  functions and related techniques in atmospheric science: A review}.
+  \textit{International Journal of \ldots}, \textbf{27}, 1119--1152,
+  \doi{10.1002/joc},
+  \urlprefix\url{http://onlinelibrary.wiley.com/doi/10.1002/joc.1499/full}.
+
+\bibitem[{Hijmans(2014)}]{raster2015}
+Hijmans, R.~J., 2014: \textit{raster: raster: Geographic data analysis and
+  modeling}. \urlprefix\url{http://CRAN.R-project.org/package=raster}, r
+  package version 2.3-12.
+
+\bibitem[{Hijmans et~al.(2005)Hijmans, Cameron, Parra, Jones,, and
+  Jarvis}]{Hijmans2005}
+Hijmans, R.~J., S.~E. Cameron, J.~L. Parra, P.~G. Jones, and A.~Jarvis, 2005:
+  {Very high resolution interpolated climate surfaces for global land areas}.
+  \textit{International Journal of Climatology}, \textbf{25~(15)}, 1965--1978,
+  \doi{10.1002/joc.1276},
+  \urlprefix\url{http://doi.wiley.com/10.1002/joc.1276}.
+
+\bibitem[{Holden et~al.(2011)Holden, Crimmins, Cushman,, and
+  Littell}]{Holden2011}
+Holden, Z.~A., M.~A. Crimmins, S.~A. Cushman, and J.~S. Littell, 2011:
+  {Empirical modeling of spatial and temporal variation in warm season
+  nocturnal air temperatures in two North Idaho mountain ranges, USA}.
+  \textit{Agricultural and Forest Meteorology}, \textbf{151~(3)}, 261--269,
+  \doi{10.1016/j.agrformet.2010.10.006},
+  \urlprefix\url{http://linkinghub.elsevier.com/retrieve/pii/S0168192310002819}.
+
+\bibitem[{Holden et~al.(2013)Holden, Klene, {F. Keefe},, and {G.
+  Moisen}}]{Holden2013}
+Holden, Z.~A., A.~E. Klene, R.~{F. Keefe}, and G.~{G. Moisen}, 2013: {Design
+  and evaluation of an inexpensive radiation shield for monitoring surface air
+  temperatures}. \textit{Agricultural and Forest Meteorology}, \textbf{180},
+  281--286, \doi{10.1016/j.agrformet.2013.06.011},
+  \urlprefix\url{http://linkinghub.elsevier.com/retrieve/pii/S016819231300169X}.
+
+\bibitem[{Horel and Dong(2010)Horel, and Dong}]{Horel2010}
+Horel, J.~D., and X.~Dong, 2010: {An Evaluation of the Distribution of Remote
+  Automated Weather Stations (RAWS)}. \textit{Journal of Applied Meteorology
+  and Climatology}, \textbf{49~(7)}, 1563--1578, \doi{10.1175/2010JAMC2397.1},
+  \urlprefix\url{http://journals.ametsoc.org/doi/abs/10.1175/2010JAMC2397.1}.
+
+\bibitem[{Kalnay et~al.(1996)}]{Kalnay1996}
+Kalnay, E., and Coauthors, 1996: {The NCEP/NCAR 40-Year Reanalysis Project}.
+  \textit{Bulletin of the American Meteorological Society}, \textbf{77~(3)},
+  437--471.
+
+\bibitem[{Lookingbill and Urban(2003)Lookingbill, and Urban}]{Lookingbill2003}
+Lookingbill, T., and D.~Urban, 2003: {Spatial estimation of air temperature
+  differences for landscape-scale studies in montane environments}.
+  \textit{Agricultural and Forest Meteorology}, \textbf{114}, 141--151,
+  \urlprefix\url{http://www.sciencedirect.com/science/article/pii/S016819230200196X}.
+
+\bibitem[{Lundquist and Cayan(2007)Lundquist, and Cayan}]{Lundquist2007}
+Lundquist, J.~D., and D.~R. Cayan, 2007: {Surface temperature patterns in
+  complex terrain: Daily variations and long-term change in the central Sierra
+  Nevada, California}. \textit{Journal of Geophysical Research},
+  \textbf{112~(D11)}, 1--15, \doi{10.1029/2006JD007561},
+  \urlprefix\url{http://www.agu.org/pubs/crossref/2007/2006JD007561.shtml}.
+
+\bibitem[{Lundquist et~al.(2008)Lundquist, Pepin,, and
+  Rochford}]{Lundquist2008a}
+Lundquist, J.~D., N.~Pepin, and C.~Rochford, 2008: {Automated algorithm for
+  mapping regions of cold-air pooling in complex terrain}. \textit{Journal of
+  Geophysical Research}, \textbf{113~(D22)}, D22\,107,
+  \doi{10.1029/2008JD009879},
+  \urlprefix\url{http://doi.wiley.com/10.1029/2008JD009879}.
+
+\bibitem[{Martinec and Rango(1986)Martinec, and Rango}]{Martinec1986}
+Martinec, J., and a.~Rango, 1986: {Parameter values for snowmelt runoff
+  modelling}. \textit{Journal of Hydrology}, \textbf{84~(3-4)}, 197--219,
+  \doi{10.1016/0022-1694(86)90123-X},
+  \urlprefix\url{http://linkinghub.elsevier.com/retrieve/pii/002216948690123X}.
+
+\bibitem[{McCune and Keon(2002)McCune, and Keon}]{McCune2002}
+McCune, B., and D.~Keon, 2002: {Equations for potential annual direct incident
+  radiation and heat load}. \textit{Journal of vegetation science},
+  \textbf{~(1966)}, 603--606,
+  \urlprefix\url{http://onlinelibrary.wiley.com/doi/10.1111/j.1654-1103.2002.tb02087.x/abstract}.
+
+\bibitem[{Mensing et~al.(2013)}]{Mensing2013}
+Mensing, S., and Coauthors, 2013: {A Network for Observing Great Basin Climate
+  Change}. \textit{Eos, Transactions American Geophysical Union},
+  \textbf{94~(11)}, 105--106, \doi{10.1002/2013EO110001},
+  \urlprefix\url{http://doi.wiley.com/10.1002/2013EO110001}.
+
+\bibitem[{Millar et~al.(2007)Millar, Stephenson,, and Stephens}]{Millar2007}
+Millar, C.~I., N.~L. Stephenson, and S.~L. Stephens, 2007: {Climate change and
+  forests of the future: Managing in the face of uncertainty}. \textbf{17~(8)},
+  2145--2151.
+
+\bibitem[{Myrick and Horel(2008)Myrick, and Horel}]{Myrick2008}
+Myrick, D.~T., and J.~D. Horel, 2008: {Sensitivity of Surface Analyses over the
+  Western United States to RAWS Observations}. \textit{Weather and
+  Forecasting}, \textbf{23~(1)}, 145--158, \doi{10.1175/2007WAF2006074.1},
+  \urlprefix\url{http://journals.ametsoc.org/doi/abs/10.1175/2007WAF2006074.1}.
+
+\bibitem[{Pebesma(2012)}]{Pebesma2012}
+Pebesma, E., 2012: {spacetime: Spatio-Temporal Data in R}. \textit{Journal of
+  Statistical Software}, \textbf{51~(7)}, 1--30,
+  \urlprefix\url{http://www.jstatsoft.org/v51/i07/}.
+
+\bibitem[{Pepin et~al.(1999)Pepin, Benham,, and Taylor}]{Pepin1999}
+Pepin, N., D.~Benham, and K.~Taylor, 1999: {of Northern in the Maritime Rates
+  Uplands Modeling Lapse England : for Climate Change Implications}.
+  \textit{Arctic, Antarctic, and Alpine Research}, \textbf{31~(2)}, 151--164.
+
+\bibitem[{Pepin et~al.(2011)Pepin, Daly,, and Lundquist}]{Pepin2011}
+Pepin, N.~C., C.~Daly, and J.~Lundquist, 2011: {The influence of surface versus
+  free-air decoupling on temperature trend patterns in the western United
+  States}. \textit{Journal of Geophysical Research}, \textbf{116~(D10)},
+  D10\,109, \doi{10.1029/2010JD014769},
+  \urlprefix\url{http://doi.wiley.com/10.1029/2010JD014769}.
+
+\bibitem[{Pinheiro et~al.(2014)Pinheiro, Bates, DebRoy, Sarkar,, and {R Core
+  Team}}]{nlme2015}
+Pinheiro, J., D.~Bates, S.~DebRoy, D.~Sarkar, and {R Core Team}, 2014:
+  \textit{{nlme}: Linear and Nonlinear Mixed Effects Models}.
+  \urlprefix\url{http://CRAN.R-project.org/package=nlme}, r package version
+  3.1-118.
+
+\bibitem[{{R Core Team}(2014)}]{R2015}
+{R Core Team}, 2014: \textit{R: A Language and Environment for Statistical
+  Computing}. Vienna, Austria, R Foundation for Statistical Computing,
+  \urlprefix\url{http://www.R-project.org/}.
+
+\bibitem[{Rolland(2003)}]{Rolland2003}
+Rolland, C., 2003: {Spatial and seasonal variations of air temperature lapse
+  rates in Alpine regions}. \textit{Journal of Climate}, \textbf{16},
+  1032--1046,
+  \urlprefix\url{http://journals.ametsoc.org/doi/abs/10.1175/1520-0442(2003)016<1032:SASVOA>2.0.CO;2}.
+
+\bibitem[{Steinhauser(1967)}]{Steinhauser1967}
+Steinhauser, F.~W., 1967: {Methods of Evaluation and Drawing of Climate Maps in
+  Mountainous Countries}. \textit{Archiv fur Meteorologie, Geophysik und
+  Bioklimatologie}, \textbf{15~(4)}, 329--358.
+
+\bibitem[{Thornton et~al.(1997)Thornton, Running,, and White}]{Thornton1997}
+Thornton, P.~E., S.~W. Running, and M.~a. White, 1997: {Generating surfaces of
+  daily meteorological variables over large regions of complex terrain}.
+  \textit{Journal of Hydrology}, \textbf{190~(3-4)}, 214--251,
+  \doi{10.1016/S0022-1694(96)03128-9},
+  \urlprefix\url{http://linkinghub.elsevier.com/retrieve/pii/S0022169496031289}.
+
+\end{thebibliography}

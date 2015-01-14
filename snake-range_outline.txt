@@ -1,0 +1,74 @@
+Ia.	Intro
+	a.	Distributions of species are expected to change
+	b.	Current data misses microrefugia
+	c.	Topoclimate varies in time and space
+	d.	Study goals/What we did
+
+
+
+Ib.	Second intro
+	a.	Importance of air temperature
+	b.	Variation of temperature in space and time
+	c.	General efforts to estimate temperature
+		1)	Lapse rates
+		2)	Gridded products
+	d.	Study goals/What we did
+
+Ic.	Third intro
+	a.	Importance of air temperature
+	b.	Variation of temperature in space and time
+		1)	Spatial Variation
+		2)	Temporal Variation
+			i.	Seasonal effects
+			ii.	Weather effects
+	c.	General efforts to estimate temperature
+		1)	Lapse rates
+		2)	Gridded products
+	d.	Study goals/What we did
+
+
+
+II.	Methods
+	a.	Study site
+	b.	Synoptic weather
+		1)	Range and seasonality of observed lapse rates
+		2)	EOFs
+	c.	Topographic variables
+		1)	Elevation - Intuitive for most people
+		2)	TCI - Cold air drainage
+		3)	Irradiance - Modeled sunshine at each point
+		4)	Canopy Cover - Best guestimate of canopy % cover
+		5)	Slope - maybe more cold air drainage effect *[check correlation with TCI and irrad]*
+	d.	Hierarchical models
+		1)	Tmn
+		2)	Tmx
+	e.	Model Validation *[is 4 NevCAN stations a large enough dataset for validation?
+						   at least it's very independent!]*
+
+*[Results and discussion are kind of blurred together at this point. Should come together
+better as I tighten up the methods while writing.]*
+III.Results and discussion
+	a.	Theoretical interpretation
+		1)	Persistence of Tmn inversions
+		2)	Difficulty identifying inversions in Tmx winter
+		3)	...
+		4)	...
+	b.	Predictions
+		1)	Tmn
+		2)	Tmx
+
+IV.	Discussion
+	a.	Spatial-Temporal interactions and complications
+		1)	Inversions more common in winter
+		2) 	Tmn inversions more persistent
+		3)	Lots of complicated statistics
+			a.	This really applies to our dataset, 
+				thus the challenge of understanding such 
+				finely resolved climate remains lackluster at best.
+			b.	This is cheap and easy to do, so a new
+				age of understanding is around the corner.
+
+S1.	Gigantic list of thank yous and references
+S2.	More on the modeling
+S3.	Can we get these maps on http://sensor.nevada.edu/NCCP/
+S4.	Can we make these maps interactive on http://sensor.nevada.edu/NCCP/

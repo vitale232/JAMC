@@ -1,0 +1,56 @@
+This is BibTeX, Version 0.99d (TeX Live 2014/Debian)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: snake-range_manuscript.aux
+The style file: ametsoc2014.bst
+Database file #1: snake-range_bibliography.bib
+Repeated entry---line 607 of file snake-range_bibliography.bib
+ :     @manual{R2015
+ :                  ,
+I'm skipping whatever remains of this entry
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Warning--can't use both volume and number fields in Diaz2003a
+Warning--missing publisher in Diaz2003a
+Warning--there's a number but no volume in McCune2002
+Warning--empty journal in Millar2007
+You've used 38 entries,
+            3493 wiz_defined-function locations,
+            995 strings with 14839 characters,
+and the built_in function-call counts, 39065 in all, are:
+= -- 4584
+> -- 1253
+< -- 21
++ -- 721
+- -- 315
+* -- 2137
+:= -- 4064
+add.period$ -- 76
+call.type$ -- 38
+change.case$ -- 292
+chr.to.int$ -- 50
+cite$ -- 42
+duplicate$ -- 3997
+empty$ -- 2159
+format.name$ -- 396
+if$ -- 7953
+int.to.chr$ -- 1
+int.to.str$ -- 1
+missing$ -- 395
+newline$ -- 125
+num.names$ -- 152
+pop$ -- 1531
+preamble$ -- 1
+purify$ -- 255
+quote$ -- 0
+skip$ -- 2454
+stack$ -- 0
+substring$ -- 1834
+swap$ -- 3213
+text.length$ -- 1
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 330
+warning$ -- 4
+while$ -- 199
+width$ -- 0
+write$ -- 471
+(There was 1 error message)

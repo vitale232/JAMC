@@ -1,0 +1,172 @@
+\begin{table}[t]
+\caption{Summary statistics for the EOF analysis conducted on SLP anomolies
+          for  the years 1958-2014.  Only the first 4 of 544 EOFs are shown.}\label{tab:1}
+\begin{center}
+\begin{tabular}{ccccrrcrc}
+\hline\hline
+\ & EOF1 & EOF2 & EOF3 & EOF4 \\
+\hline
+Standard Deviation & 120.14 & 92.90 & 63.92 & 54.60\\
+Proportion of Variance & 0.36 & 0.22 & 0.10 & 0.08 \\
+Cumulative Proportion of Variance & 0.36 & 0.58 & 0.68 & 0.76 \\
+\hline
+\end{tabular}
+\end{center}
+\end{table}
+\efloatseparator
+ 
+\begin{table}[t]
+\caption{Table of the predictor variables used in models of maximum
+and minimum near-surface air temperature.}\label{tab:2}
+\begin{center}
+\begin{tabular}{clccl}
+\hline\hline
+Variable & Description & Units & Range in Snake Range & Source of Derivation \\
+\hline
+Tair  & Daily mean temperature at 700 hPa level & $\degree$C & \          & NCEP Reanalysis 1 \\
+PC4   & Daily fluctuations in SLP               & \          & \          & EOF analysis of daily SLP \\
+ELEV  & Elevation (AMSL)                        & m          & 1560-3850  & 30-m digital elevation model \\
+TCI   & Terrain Convergence Index               & Unitless   & 2.1-17-1   & GIS based on elevation (r.terraflow in GRASS) \\
+IRRAD & Daily shortwave radiation               & MWm$^2$    & 0.378-9.81 & GIS based on terrain, location, season (r.sun in GRASS) \\
+CC    & Canopy cover                            & \%         & 0-72       & USGS NLCD product \\
+SLOPE & Terrain slope                           & $\degree$  & 0-73.3     & Based on elevation model \\
+JDAY  & Day of year (1-365)                     & \          & \          & \  \\
+\hline
+\end{tabular}
+\end{center}
+\end{table}
+\efloatseparator
+ 
+\begin{table}[t]
+\caption{Fixed effect coefficients of minimum daily temperature model for the SRSN.}\label{tab:3}
+\begin{center}
+\begin{tabular}{lccc}
+\hline\hline
+Coefficient                        & Estimate & Standard Error & t value \\
+\hline
+(Intercept)                        & -36.07 & 10.27       & -3.51 \\
+IRRAD                              & 0.002  & 0.02        & 0.10  \\
+ELEV                               & 32.60  & 8.46        & 3.85  \\
+ELEV$^2$                           & -6.87  & 1.61        & -4.25 \\
+PC4                                & 0.13   & 0.02        & 5.96  \\
+$T_{air}$                          & 0.88   & 0.02        & 55.23 \\
+TCI                                & -0.16  & 0.07        & -2.36 \\
+CC                                 & 1.05   & 0.245       & 4.22  \\
+SLOPE                              & 0.04   & 0.02        & 2.57  \\
+cos(2$\pi$/365 * JDAY)             & -1.78  & 0.18        & -9.69 \\
+sin(2$\pi$/365 * JDAY)             & -0.17  & 0.12        & -1.41 \\
+ELEV:PC4                           & -0.09  & 0.02        & -5.24 \\
+ELEV$^2$:PC4                       & 0.01   & 0.002       & 4.42  \\
+ELEV:CC                            & -0.80  & 0.20        & -3.96 \\
+ELEV$^2$:CC                        & 0.14   & 0.04        & 3.68  \\
+\hline
+\end{tabular}
+\end{center}
+\end{table}
+\efloatseparator
+ 
+\begin{table}[t]
+\caption{Fixed effect coefficients of maximum daily temperature model for the SRSN.}
+\begin{center}
+\begin{tabular}{lccc}
+\hline\hline
+                                                 & Estimate & Std. Error & t value \\
+\hline
+(Intercept)                                      & 31.98    & 6.66       & 4.80    \\
+$T_{air}$                                        & 0.87     & 0.02       & 35.68   \\
+IRRAD                                            & 0.58     & 0.03       & 21.96   \\
+PC4                                              & -0.01    & 0.00       & -5.62   \\
+ELEV                                             & -10.91   & 5.49       & -1.99   \\
+ELEV$^2$                                         & 0.37     & 1.03       & 0.36    \\
+TCI                                              & -0.07    & 0.07       & -1.00   \\
+cos(2$\pi$/365 * JDAY)                           & -0.70    & 0.96       & -0.73   \\
+sin(2$\pi$/365 * JDAY)                           & -0.43    & 0.96       & -0.45   \\
+SLOPE                                            & 0.03     & 0.02       & 1.95    \\
+CC                                               & 0.01     & 0.01       & 1.13    \\
+TCI:cos(2$\pi$/365 * JDAY)                       & 0.02     & 0.01       & 3.34    \\
+TCI:sin(2$\pi$/365 * JDAY)                       & 0.00     & 0.01       & 0.21    \\
+ELEV:cos(2$\pi$/365 * JDAY)                      & -3.61    & 0.71       & -5.06   \\
+ELEV$^2$:cos(2$\pi$/365 * JDAY)                  & 1.08     & 0.14       & 7.75    \\
+ELEV:sin(2$\pi$/365 * JDAY)                      & 1.13     & 0.72       & 1.57    \\
+ELEV$^2$ :sin(2$\pi$/365 * JDAY)                 & -0.32    & 0.14       & -2.26   \\
+\hline
+\end{tabular}
+\end{center}
+\end{table}
+\efloatseparator
+ 
+\begin{table}[t]
+\caption{Model bias for daily maximum and daily minimum temperature models described in text. Bias is calculated as predicted temperature minus observed temperature. Average bias per month at each NevCAN station (Figure 1) are displayed here as well as overall average bias for the entirety of the time series.}
+\begin{center}
+\begin{tabular}{lccccccccccccc}
+\hline\hline
+Month     & Jun   & Jul   & Aug   & Sep   & Oct   & Nov   & Dec   & Jan   & Feb   & Mar   & Apr   & May   & Overall \\
+\hline
+\multicolumn{14}{c}{Minimum Temperature Bias}                                                                       \\
+Sage      & 1.80  & 0.27  & 0.47  & -2.24 & 1.24  & 1.33  & 5.56  & 2.47  & -0.81 & 0.09  & -0.98 & 0.77  & 0.85    \\
+PJ        & 2.88  & 1.69  & 1.98  & -0.82 & 2.76  & 3.57  & 7.69  & 4.05  & 0.72  & 1.63  & 0.51  & 2.29  & 2.43    \\
+Montane   & -0.54 & 0.07  & -0.74 & -0.54 & -0.16 & 0.05  & 1.21  & -0.33 & -0.32 & 0.51  & 0.13  & 0.12  & -0.05   \\
+Subalpine & -0.61 & -0.06 & -0.10 & -1.14 & -0.84 & -0.30 & -0.41 & -1.70 & -0.97 & 0.55  & 0.30  & 0.36  & -0.40   \\
+Overall   & 0.53  & 0.49  & 0.40  & -1.19 & 0.75  & 1.16  & 3.51  & 1.12  & -0.34 & 0.70  & -0.01 & 0.88  & 0.69    \\
+\multicolumn{14}{c}{Maximum Temperature Bias}                                                                       \\
+Sage      & -0.89 & 0.25  & -0.35 & -0.11 & -1.73 & 0.51  & 3.92  & -0.01 & -0.73 & -1.04 & -0.17 & 0.71  & 0.05    \\
+PJ        & -4.27 & -3.14 & -3.78 & -3.58 & -5.16 & -2.82 & 0.64  & -3.34 & -4.17 & -4.57 & -3.67 & -2.72 & -3.36   \\
+Montane   & -4.75 & -3.10 & -3.86 & -2.40 & -3.37 & -2.33 & -3.61 & -3.71 & -3.40 & -3.00 & -2.96 & -2.31 & -3.22   \\
+Subalpine & -3.55 & -1.55 & -2.36 & -0.32 & -1.62 & -0.05 & -1.83 & -1.63 & 0.34  & -0.16 & -0.22 & -0.22 & -1.12   \\
+Overall   & -3.20 & -1.88 & -2.59 & -1.60 & -2.97 & -1.17 & -0.22 & -2.17 & -1.99 & -2.19 & -1.75 & -1.13 & -1.92   \\
+\hline
+\end{tabular}
+\end{center}
+\end{table}
+\efloatseparator
+ 
+\begin{table}[t]
+\caption{Model MAE}
+\begin{center}
+\begin{tabular}{lccccccccccccc}
+\hline\hline
+Site      & Jun  & Jul  & Aug  & Sep  & Oct  & Nov  & Dec  & Jan  & Feb  & Mar  & Apr  & May  & Overall \\
+\hline
+\multicolumn{14}{c}{Minimum Temperature MAE}                                                            \\
+Sage      & 2.98 & 1.78 & 2.32 & 2.50 & 3.98 & 2.73 & 6.15 & 4.82 & 2.77 & 2.70 & 2.56 & 2.49 & 3.16    \\
+PJ        & 1.58 & 1.65 & 1.87 & 1.64 & 1.85 & 1.76 & 1.85 & 2.00 & 2.55 & 1.88 & 2.11 & 1.43 & 1.84    \\
+Montane   & 1.08 & 1.14 & 1.28 & 1.14 & 1.47 & 0.83 & 1.61 & 1.25 & 1.43 & 1.46 & 1.31 & 1.30 & 1.27    \\
+Subalpine & 1.02 & 0.82 & 0.80 & 1.44 & 1.67 & 1.55 & 1.88 & 2.14 & 1.70 & 1.57 & 1.54 & 1.17 & 1.43    \\
+Overall   & 1.56 & 1.35 & 1.57 & 1.68 & 2.24 & 1.72 & 2.87 & 2.55 & 2.11 & 1.90 & 1.88 & 1.60 & 1.92    \\
+\multicolumn{14}{c}{Maximum Temperature MAE}                                                            \\
+Sage      & 1.90 & 1.35 & 1.33 & 2.23 & 2.53 & 3.14 & 4.68 & 1.95 & 2.48 & 1.86 & 2.03 & 1.75 & 2.27    \\
+PJ        & 2.86 & 2.14 & 2.47 & 2.84 & 3.19 & 3.04 & 1.81 & 2.32 & 2.47 & 2.54 & 2.96 & 2.40 & 2.59    \\
+Montane   & 4.64 & 3.47 & 4.04 & 3.45 & 3.73 & 2.94 & 3.70 & 3.71 & 3.69 & 3.50 & 3.80 & 3.38 & 3.69    \\
+Subalpine & 3.60 & 2.07 & 2.79 & 2.34 & 2.93 & 2.63 & 2.84 & 2.68 & 2.35 & 2.21 & 2.00 & 2.03 & 2.56    \\
+Overall   & 3.36 & 2.26 & 2.65 & 2.72 & 3.10 & 2.94 & 3.26 & 2.67 & 2.75 & 2.53 & 2.70 & 2.39 & 2.78    \\
+\hline
+\end{tabular}
+\end{center}
+\end{table}
+\efloatseparator
+ 
+\begin{table}[t]
+\caption{RMSE Table}
+\begin{center}
+\begin{tabular}{lccccccccccccc}
+\hline\hline
+Site      & Jun  & Jul  & Aug  & Sep  & Oct  & Nov  & Dec  & Jan  & Feb  & Mar  & Apr  & May  & Overall \\
+\hline
+\multicolumn{14}{c}{Minimum Temperature RMSE}                                                           \\
+Sage      & 3.72 & 2.23 & 2.89 & 3.06 & 4.56 & 3.35 & 8.00 & 5.76 & 3.56 & 3.22 & 3.13 & 3.05 & 4.18    \\
+PJ        & 2.04 & 1.90 & 2.33 & 1.99 & 2.28 & 2.01 & 2.25 & 2.60 & 2.96 & 2.41 & 2.54 & 1.93 & 2.28    \\
+Montane   & 1.40 & 1.49 & 1.51 & 1.41 & 1.86 & 1.11 & 2.21 & 1.63 & 2.00 & 2.29 & 2.09 & 1.65 & 1.75    \\
+Subalpine & 1.34 & 1.13 & 1.02 & 1.73 & 1.97 & 1.99 & 2.35 & 2.54 & 2.16 & 2.36 & 2.26 & 1.45 & 1.91    \\
+Overall   & 2.19 & 1.74 & 2.07 & 2.14 & 2.89 & 2.26 & 4.46 & 3.50 & 2.74 & 2.60 & 2.54 & 2.11 & 2.70    \\
+\multicolumn{14}{c}{Maximum Temperature RMSE}                                                           \\
+Sage      & 2.55 & 1.76 & 1.79 & 2.81 & 2.90 & 4.11 & 5.64 & 2.52 & 2.95 & 2.20 & 2.55 & 2.52 & 3.04    \\
+PJ        & 3.35 & 2.54 & 2.74 & 3.41 & 3.54 & 3.66 & 2.16 & 2.76 & 3.24 & 2.93 & 3.32 & 2.81 & 3.07    \\
+Montane   & 5.06 & 3.94 & 4.35 & 3.82 & 4.05 & 3.34 & 4.03 & 4.05 & 4.32 & 4.05 & 4.22 & 3.86 & 4.13    \\
+Subalpine & 3.96 & 2.46 & 3.06 & 2.81 & 3.28 & 3.37 & 3.53 & 3.26 & 2.76 & 2.49 & 2.40 & 2.44 & 3.04    \\
+Overall   & 3.92 & 2.79 & 3.12 & 3.24 & 3.47 & 3.63 & 4.04 & 3.20 & 3.37 & 3.00 & 3.21 & 2.96 & 3.35    \\
+\hline
+\end{tabular}
+\end{center}
+\end{table}
+\efloatseparator
+ 

@@ -1,0 +1,109 @@
+\begin{figure}[ht]
+
+ \centerline{\includegraphics[width=39pc]{figure01_study-site.pdf}}
+
+  \caption{A map of the study site in the Snake Range, Nevada, USA.  The blue diamond
+  indicates the location of this study within the state of Nevada.  The
+  Snake Range Sensor Network (SRSN) locations are shown as black points on the map
+  and the NevCAN weather stations are indicated by the gray squares and
+  labeled by name.  Colored shading indicates elevation,
+  the gray lines are elevation contours spaced at 150 m, and the white line represents
+  Shoshone Road (NV-894).}\label{fig:1}
+
+\end{figure}
+\efloatseparator
+ 
+\begin{figure}[ht]
+
+ \centerline{\includegraphics[width=39pc]{figure02_EOFs.pdf}}
+
+  \caption{The first 4 of 544 empirical orthogonal functions (EOFs) identified by an empirical orthogonal function
+  analysis of daily mean sea level pressure (SLP) anomalies.  Physical interpretation of these
+  EOFs can be found in text.  The variation of these spatial patterns through time as Principle
+  Components (PCs) can be observed in Figure \ref{fig:3}, where the numeric label of each PC corresponds
+  to the numeric label of these EOFs.}\label{fig:2}
+
+\end{figure}
+\efloatseparator
+ 
+\begin{figure}[ht]
+
+ \centerline{\includegraphics[width=39pc]{figure03_PCs.pdf}}
+
+  \caption{The first 4 of 544 principle components (PCs) identified and described in text.  A temporal subset spanning 1 January 2009 to the final day of the analysis period, 24 September 2014, is displayed for clarity. Also note the differing y-axes, as the PC scores are relative. The vertical red lines indicate the portion of the time series that coincides with the Snake Range Sensor Network analysis period.}\label{fig:3}
+
+\end{figure}
+\efloatseparator
+ 
+\begin{figure}[ht]
+
+\centerline{\includegraphics[width=39pc]{figure04_raw-t-data.pdf}}
+
+ \caption{A time series showing all SRSN maximum and minimum daily temperature data collected during the study period (17 June 2013 to 24 June 2014) as red and blue symbols, respectively, and the NCEP Reanalysis 1 daily average air temperature at the 700 hPa level drawn as a black line. All of the SRSN $T_{max}$ and $T_{min}$ data are plotted for each day, thus up to 80 dots are present on each day. We intentionally chose color the data by sites for simplicity of viewing.}\label{fig:4}
+
+\end{figure}
+\efloatseparator
+ 
+\begin{figure}[ht]
+
+\centerline{\includegraphics[width=39pc]{figure05_tci-elev-resid.pdf}}
+
+ \caption{Modeling of minimum daily temperature averaged over the course of a month between 17 June 2013 and 24 June 2014 expressed as a function of terrain convergence index (TCI). Temperature is expressed as the residual of a mixed-effect model fit to the entirety of the SRSN data predicted solely by elevation with random intercepts by month. Residuals were then averaged for each site per month, and plotted against the TCI value at each sensor. The lines are fit by least squares regression. Lines are colored by the p-value associated with these least square regressions, where red indicates significance at the 0.05 level (p $<$ 0.05), orange indicates significance at the 0.10 level (p $<$ 0.10), and gray indicates no significance at the 0.10 level (p $>$ 0.10).}\label{fig:5}
+
+\end{figure}
+\efloatseparator
+ 
+\begin{figure}[ht]
+
+\centerline{\includegraphics[width=39pc]{figure06_slope-elev-resid.pdf}}
+
+\caption{Modeling of maximum daily temperature averaged over the course of a month between 17 June 2013 and 24 June 2014 expressed as a function of terrain slope ($\degree$). Temperature is expressed as the residual of a mixed-effect model fit to the entirety of the SRSN data predicted by elevation with random intercepts by month. Residuals were then averaged for each site per month and plotted against the terrain slope at each sensor. The lines are fit by least squares regression. All months were statistically significant at the 0.05 level (p < 0.05).\label{fig:6}}
+
+\end{figure}
+\efloatseparator
+ 
+\begin{figure}[ht]
+
+\centerline{\includegraphics[width=39pc]{figure07_tmn-validation.pdf}}
+
+\caption{Difference between daily minimum temperature ($\degree$C) as predicted by the hierarchical mixed-effects model described in text and observed daily minimum temperature at 4 NevCAN stations over time. The Montane site is visualized as orange dots, the Pinyon-Juniper site (PJ) is dark blue, the Sagebrush (Sage) site is dark green, and the Subalpine site is purple. The black horizontal line represents a perfect prediction.\label{fig:7}}
+
+\end{figure}
+\efloatseparator
+ 
+\begin{figure}[ht]
+
+\centerline{\includegraphics[width=39pc]{figure08_tmx-validation.pdf}}
+
+\caption{Difference between daily maximum temperature ($\degree$C) as predicted by the hierarchical mixed-effects model described in text and observed daily maximum temperature at 4 NevCAN stations over time. The Montane site is visualized as orange dots, the Pinyon-Juniper site (PJ) is dark blue, the Sagebrush (Sage) site is dark green, and the Subalpine site is purple. The black horizontal line represents a perfect prediction.\label{fig:8}}
+
+\end{figure}
+\efloatseparator
+ 
+\begin{figure}[ht]
+
+\centerline{\includegraphics[width=39pc]{figure09_temperature-maps.pdf}}
+
+\caption{Two maps of temperature as predicted by the models described in text. Gray squares indicate NevCAN stations, which were used as validation sites in this work. Scale and orientation are the same as Figure 1. Note that (a) and (b) have different legends and are for different time periods. (a) A map of average minimum temperature throughout the study site, calculated by taking the mean of daily minimum temperature for the month of December 2013. (b) A map of average maximum temperature, calculated by taking the mean of daily maximum temperature predictions for the month of July 2013.\label{fig:9}}
+
+\end{figure}
+\efloatseparator
+ 
+\begin{figure}[ht]
+
+\centerline{\includegraphics[width=39pc]{figure10_tmn-lapse.pdf}}
+
+\caption{Minimum temperature across the 40 sites of the SRSN on two separate days plotted against site elevation. The panel on the left is from 2013 June 19, and it displays the more typical pattern of $T_{min}$ for the area. Minimum temperature at the lower elevation sites is relatively constant, as cold air drainage occurs on a nearly nightly basis at the site. The right pane shows minimum temperature recorded by the SRSN plotted against elevation. This particular day shows a deep inversion present at the study site, where temperature increases with elevation rather than decreases. The red lines represent a least squares linear regression model that has been fit to the data, which is often thought of as the lapse rate.}
+\label{fig:10}
+\end{figure}
+\efloatseparator
+ 
+\begin{figure}[ht]
+
+\centerline{\includegraphics[width=39pc]{figure11_tmx-lapse.pdf}}
+
+\caption{Maximum temperature across the 40 sites of the SRSN on two separate days plotted against the elevation of each site, where red lines represent a least squares linear regression line fitted to the data, which is often thought of as the atmospheric lapse rate. (a) Maximum daily temperature from 2013 June 19. this displays a typical maximum temperature observation at the site, where maximum temperature decreases linearly with decreasing elevation. (b) Maximum daily temperature from 2013 December 12, which shows a persistent inversion occurring at the site. As you increase elevation, there is a very slight decrease in maximum temperature for that day.}
+\label{fig:11}
+\end{figure}
+\efloatseparator
+ 
