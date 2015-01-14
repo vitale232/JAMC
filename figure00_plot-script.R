@@ -270,11 +270,11 @@ resid_month = merge(resid_month, snake[, c('ID', 'elev', 'tci', 'cc_nlcd', 'gis.
 pp = ggplot(resid_month) + geom_point(aes(tci, resid), color=blue)
 pp = pp + facet_wrap( ~ month, nrow=3) + 
   stat_smooth(aes(tci, resid), data=resid_month[!(resid_month$month %in% c('Jan', 'Nov', 'Dec')) ,],
-              method='lm', se=FALSE, color='darkgray', size=1.2) +
+              method='lm', se=TRUE, color='darkgray', size=1.2) +
   stat_smooth(aes(tci, resid), data=resid_month[resid_month$month %in% c('Jan', 'Nov', 'Dec') ,],
-              method='lm', se=FALSE, color=red, size=1.2) + 
+              method='lm', se=TRUE, color=red, size=1.2) + 
   stat_smooth(aes(tci, resid), data=resid_month[resid_month$month == 'Jun',],
-              method='lm', se=FALSE, color=orange, size=1.2)
+              method='lm', se=TRUE, color=orange, size=1.2)
 pp = pp + theme_gray(base_size=20) + 
   theme(axis.text.x=element_text(color='black'),
         axis.text.y=element_text(color='black'),
@@ -328,7 +328,7 @@ resid_month_tmx = merge(resid_month_tmx, snake[, c('ID', 'elev', 'tci', 'cc_nlcd
 fig6 = ggplot(resid_month_tmx) + geom_point(aes(gis.slope, resid), color=blue)
 fig6 = fig6 + facet_wrap( ~ month, nrow=3)
 fig6 = fig6 + stat_smooth(aes(gis.slope, resid), 
-                          method='lm', se=FALSE, color=red, size=1.2)
+                          method='lm', se=TRUE, color=red, size=1.2)
 fig6 = fig6 + theme_gray(base_size=20) + 
   theme(axis.text.x=element_text(color='black'),
         axis.text.y=element_text(color='black'),
@@ -441,6 +441,9 @@ dev.off()
 
 #### Figure 10, elevation quadratic tmn ####
 fig10_df = m_tmn
+if(fig10_df$elev[1] > 3) {
+  fig10_df$elev = fig11_df$elev/1000
+}
 fig10_df = fig10_df[fig10_df$date == as.Date('2013-06-19') |
                       fig10_df$date == as.Date('2013-12-12'), ]
 fig10_df$date = factor(fig10_df$date)
@@ -453,7 +456,7 @@ fig10_ann = data.frame('date'=factor(c(as.Date('2013-06-19'), as.Date('2013-12-1
 fig10 = ggplot(fig10_df) +
   geom_point(aes(elev, tmn), color=blue, size=2.75) +
   stat_smooth(aes(elev, tmn), method=lm, 
-              color=red, se=FALSE, size=1.25) +
+              color=red, se=TRUE, size=1.25) +
   geom_text(data=fig10_ann, aes(elev, tmn, label=lab), size=10) +
   facet_grid(. ~ date) + 
   xlab('Elevation (km)') + 
@@ -487,7 +490,7 @@ fig11_ann = data.frame('date'=factor(c(as.Date('2013-06-19'), as.Date('2013-12-1
 fig11 = ggplot(fig11_df) +
   geom_point(aes(elev, tmx), color=blue, size=2.75) +
   stat_smooth(aes(elev, tmx), method=lm, 
-              color=red, se=FALSE, size=1.25) +
+              color=red, se=TRUE, size=1.25) +
   geom_text(data=fig11_ann, aes(elev, tmx, label=lab), size=10) +
   facet_grid(. ~ date) + 
   xlab('Elevation (km)') + 
